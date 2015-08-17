@@ -17,6 +17,8 @@
 		684222281B7DA6A4002005EB /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684222271B7DA6A4002005EB /* Player.swift */; };
 		6842222A1B7DA6F9002005EB /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684222291B7DA6F9002005EB /* SampleData.swift */; };
 		6842222E1B7DB48D002005EB /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6842222D1B7DB48D002005EB /* PlayerTableViewCell.swift */; };
+		688A31571B806874006463D5 /* PlayerDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688A31561B806874006463D5 /* PlayerDetailsTableViewController.swift */; };
+		688A31591B819852006463D5 /* GamePickerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688A31581B819852006463D5 /* GamePickerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		684222271B7DA6A4002005EB /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		684222291B7DA6F9002005EB /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		6842222D1B7DB48D002005EB /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		688A31561B806874006463D5 /* PlayerDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailsTableViewController.swift; sourceTree = "<group>"; };
+		688A31581B819852006463D5 /* GamePickerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePickerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 				684222271B7DA6A4002005EB /* Player.swift */,
 				684222291B7DA6F9002005EB /* SampleData.swift */,
 				6842222D1B7DB48D002005EB /* PlayerTableViewCell.swift */,
+				688A31561B806874006463D5 /* PlayerDetailsTableViewController.swift */,
+				688A31581B819852006463D5 /* GamePickerTableViewController.swift */,
 			);
 			path = Ratings;
 			sourceTree = "<group>";
@@ -229,7 +235,9 @@
 				684222081B7C6355002005EB /* ViewController.swift in Sources */,
 				684222061B7C6355002005EB /* AppDelegate.swift in Sources */,
 				6842222A1B7DA6F9002005EB /* SampleData.swift in Sources */,
+				688A31591B819852006463D5 /* GamePickerTableViewController.swift in Sources */,
 				684222261B7DA658002005EB /* PlayersTableViewController.swift in Sources */,
+				688A31571B806874006463D5 /* PlayerDetailsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +433,7 @@
 				684222211B7C6356002005EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		684222221B7C6356002005EB /* Build configuration list for PBXNativeTarget "RatingsTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +442,7 @@
 				684222241B7C6356002005EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
